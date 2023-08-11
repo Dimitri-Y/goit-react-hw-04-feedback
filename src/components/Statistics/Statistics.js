@@ -10,7 +10,6 @@ class Statistics extends Component {
     total: PropTypes.number.isRequired,
     positivePercentage: PropTypes.number.isRequired,
   };
-
   render() {
     const { good, neutral, bad, total, positivePercentage } = this.props;
     return (
@@ -38,4 +37,5 @@ class Statistics extends Component {
     );
   }
 }
+
 export default Statistics;
