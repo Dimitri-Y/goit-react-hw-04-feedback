@@ -1,0 +1,28 @@
+.button {
+  margin-bottom: 20px;
+}
+.button__h {
+  font-size: 26px;
+}
+.button__group {
+  display: flex;
+  gap: 20px;
+}
+.button__list {
+}
+.button__list:nth-last-child() {
+  margin-right: 20px;
+}
+.button__btn {
+}
+.stat {
+}
+.stat__h {
+  font-size: 26px;
+}
+.stat__group {
+}
+.stat__item {
+}
+.stat__span {
+}
